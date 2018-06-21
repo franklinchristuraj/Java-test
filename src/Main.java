@@ -1,3 +1,5 @@
+import com.sun.jdi.event.StepEvent;
+
 import java.awt.*;
 
 public class Main {
@@ -17,5 +19,15 @@ public class Main {
 
         System.out.println("My Car's license plate:" + myCar.licensePlate);
         System.out.println("Baby Car's license plate: " + BabysCar.licensePlate);
+
+        String userInput = "entertainment";
+        String uppercased = userInput.toUpperCase();
+        System.out.println(uppercased);
+
+        char firstCharacter = userInput.charAt(0);
+        System.out.println(firstCharacter);
+
+        System.out.println("Contains: "+ userInput.contains("Enter".toLowerCase()));
+
     }
 }
