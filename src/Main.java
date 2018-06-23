@@ -1,3 +1,5 @@
+import com.sun.jdi.event.StepEvent;
+
 import java.awt.*;
 import java.util.Scanner;
 
@@ -27,6 +29,20 @@ public class Main {
                 false);
 
         System.out.println("My Car's license plate:" + myCar.licensePlate);
+<<<<<<< HEAD
         System.out.println("Baby Car's license plate: " + BabysCar.licensePlate);*/
+=======
+        System.out.println("Baby Car's license plate: " + BabysCar.licensePlate);
+
+        String userInput = "entertainment";
+        String uppercased = userInput.toUpperCase();
+        System.out.println(uppercased);
+
+        char firstCharacter = userInput.charAt(0);
+        System.out.println(firstCharacter);
+
+        System.out.println("Contains: "+ userInput.contains("Enter".toLowerCase()));
+
+>>>>>>> 0fe4d5bbd4d9bf941325532e31ce81814b708527
     }
 }
