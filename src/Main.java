@@ -43,6 +43,5 @@ public class Main {
 
         System.out.println("Contains: "+ userInput.contains("Enter".toLowerCase()));
 
->>>>>>> 0fe4d5bbd4d9bf941325532e31ce81814b708527
     }
 }
