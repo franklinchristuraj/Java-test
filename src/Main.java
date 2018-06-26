@@ -1,10 +1,21 @@
 import com.sun.jdi.event.StepEvent;
 
 import java.awt.*;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
+        /*System.out.println("Enter a word: ");
+        Scanner sc = new Scanner(System.in);
+
+        String userInput = sc.next();
+
+        String uppercased = userInput.toUpperCase();
+        System.out.println(userInput);
+        System.out.println(uppercased);
+
+
         System.out.println("Hello world");
         System.out.println("Franklin");
 
@@ -18,6 +29,9 @@ public class Main {
                 false);
 
         System.out.println("My Car's license plate:" + myCar.licensePlate);
+<<<<<<< HEAD
+        System.out.println("Baby Car's license plate: " + BabysCar.licensePlate);*/
+=======
         System.out.println("Baby Car's license plate: " + BabysCar.licensePlate);
 
         String userInput = "entertainment";
